@@ -1,0 +1,156 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(150, 100%, 66%); }
+
+*{
+    transition: 1s;
+}
+
+@font-face {
+    font-family: Manropeb;
+    src: url(./font/Manrope-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Manropel;
+    src: url(./font/Manrope-Light.ttf);
+}
+
+body{
+    background-color:  hsl(218, 23%, 16%);
+}
+
+main{
+    margin:200px 0px 0px 550px;
+}
+
+#main{
+    background-color:  hsl(217, 19%, 24%);
+    height: 25vh;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#main img{
+    height: 12px;
+    /* padding-top: 50px; */
+}
+
+#adviceID{
+    font-size: 11px;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Manropel;
+}
+
+#advice {
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(193, 38%, 86%);
+    font-family: Manropeb;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#dice img{
+    background-color: hsl(150, 100%, 66%);
+    height: 15px;
+    /* margin-top: 1px; */
+}
+
+#dice{
+    outline: none;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    margin-left: 175px;
+    margin-top: -25px;
+    z-index: 999;
+    margin-bottom: 50px ;
+    cursor: pointer;
+}
+
+#dice:hover{
+    transition-delay: 0.1s;
+    box-shadow: 0 0 0px hsl(150, 100%, 66%), 0 0 50px hsl(150, 100%, 66%), 0 0 0px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 1300px) {
+    main{
+        margin:200px 0px 0px 450px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    main{
+        margin:200px 0px 0px 350px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    main{
+        margin:200px 0px 0px 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main{
+        margin:200px 50px 0px 50px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    main{
+        margin:200px 10px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    main{
+        margin:200px 10px 0px 10px;
+    }
+
+    #main{
+        background-color:  hsl(217, 19%, 24%);
+        height: 30vh;
+        max-width: 350px;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    #main img{
+        height: 10px;
+        /* padding-top: 50px; */
+    }
+
+    #dice img{
+        background-color: hsl(150, 100%, 66%);
+        height: 20px;
+        margin-top: 1px;
+    }
+
+    #dice{
+        outline: none;
+        border: none;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        margin-left: 139px;
+        margin-top: -25px;
+        z-index: 999;
+        margin-bottom: 50px ;
+        cursor: pointer;
+    }
+}
